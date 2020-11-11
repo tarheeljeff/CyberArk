@@ -1,0 +1,13 @@
+Configure the reconcile account in /etc/sudoers to only allow the use of the passwd command.
+
+1. Log into the target system
+2. Obtain root privileges
+3. Run the "visudo" command. Alternatively you can edit /etc/sudoers in a text editor
+4. Add a line for the reconcile account. Example: carecon ALL=/bin/passwd [A-Za-z0-9] *
+
+    * carecon is the username of the account. Substitute when necessary
+    * /bin/passwd [A-Za-z0-9] * allows the user to use the passwd command for accounts beginning with A-Z, a-z or 0-9. Note: You may want to run "whereis passwd" to verify the path of the passwd command
+
+5. Save the file
+
+Note: Giving the reconcile account ALL=(ALL) allows the reconcile user to run any root command and should be avoided to prevent security vulnerabilities.

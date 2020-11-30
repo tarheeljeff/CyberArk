@@ -1,0 +1,13 @@
+a) Full Access User - Can create and edit technical cases and view solution notes CyberArk Customer Community +Technical Subscriber + Support Vault Access
+URL: https://cyberark-customers.force.com
+Full users are trained vault admins who are authorized to change our product’s configuration under direction of support in the process of troubleshooting. You can have up to 4 full users at a time. They must be trained because they will be handling the software and working directly with support. The limit and training requirements are for the benefit of our customers because it makes support better able to server your company's needs, it reduces the likelihood of failures because it ensures that the software is being supported by dedicated and trained CyberArk professionals, and it reduces inefficiencies that can be detrimental to the effectiveness of the product. 
+
+b) Read Only User- Can VIEW ONLY solutions notes under CyberArk Customer Community +Technical Subscriber
+URL: https://cyberark-customers.force.com
+Read Only access provides a solution for companies that want to have more users than their dedicated CyberArk admins accessing the customer community. Users with this access will not be able to open cases or view existing cases, but they will be able to see published solutions to problems. It is great for learning purposes. 
+
+c) Technical Subscriber - Contact under customer/partner account in salesforce will receive CyberArk email Technical Notifications There are no limits for Technical Subscribers. We can make a shared email account a TS, as it is a distribution list that will allow all employees sharing the account to receive email notifications such as security bulletins, etc. 
+
+d) Support Vault User - User will be able to download software and documentations from support vault
+URL: https://support.cyberark.com/SFE
+There are no limits for SFE users. It is recommended to limit this access to individuals that are responsible for implementation and maintenance of the software, but it could also be a great place to start new users as it can be granted in varying levels of access and provides documentation for users to gain a better sense of the products.

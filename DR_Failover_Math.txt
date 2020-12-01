@@ -1,0 +1,23 @@
+Introduction
+Q: 
+How long will it take for DR Failover to occur?
+ 
+A: 
+The calculation for how long it will take for a DR failover to occur is:
+Seconds to Failover = (TIMEOUT * CheckRetriesCount) + (CheckRetriesInterval* (CheckRetriesCount-1)) 
+
+ 
+
+The TIMEOUT parameter is located in the vault.ini file in the Disaster Recovery installation folder, by default "%program files (x86)%\PrivateArk\PADR".
+
+The CheckInterval, CheckRetriesCount, and CheckRetriesInterval are located in the PADR.ini
+
+
+
+See attached image for PADR workflow.
+
+Default values are:
+
+TIMEOUT=30
+CheckRetriesCount=5
+CheckRetriesInterval=30
